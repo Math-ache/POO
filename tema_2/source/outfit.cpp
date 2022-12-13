@@ -18,9 +18,9 @@ float outfit::getPretTotal() const
     return pretTotal;
 }
 
-void outfit::setHaine(std::vector<std::shared_ptr<haina>> haine)
+void outfit::setHaine(std::vector<std::shared_ptr<haina>> _haine)
 {
-    this->haine = haine;
+    this->haine = _haine;
 }
 
 void outfit::adaugaHaina(std::shared_ptr<haina> h)
@@ -77,7 +77,7 @@ std::istream &operator>>(std::istream &is, outfit &o)
     int nrHaine;
     std::cout << "Nr haine: ";
     is >> nrHaine;
-    for (int i = 0; i < nrHaine; i++)
+    for (int j = 0; j < nrHaine; j++)
     {
         std::cout << "Tipul hainei (bluza, pantaloni, incaltaminte): ";
         std::string tip;

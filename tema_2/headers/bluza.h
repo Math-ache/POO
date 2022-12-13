@@ -10,7 +10,7 @@ class bluza : public haina
 
 public:
     bluza();
-    bluza(float pret, const std::string producator, const std::string culoare, const std::string marime, const std::vector<std::string> materiale, bool gluga, std::string inchidere);
+    bluza(float pret, const std::string &producator, const std::string &culoare, const std::string &marime, const std::vector<std::string> &materiale, bool gluga, const std::string &inchidere);
     bluza(const bluza &b);
     ~bluza();
 

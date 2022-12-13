@@ -20,7 +20,7 @@ public:
     std::vector<std::shared_ptr<haina>> getHaine() const;
     float getPretTotal() const;
 
-    void setHaine(std::vector<std::shared_ptr<haina>> haine);
+    void setHaine(std::vector<std::shared_ptr<haina>> _haine);
 
     void adaugaHaina(std::shared_ptr<haina> h);
     void calculeazaPretTotal();

@@ -3,7 +3,7 @@
 
 bluza::bluza() : haina(), gluga(false), inchidere("") {}
 
-bluza::bluza(float pret, const std::string producator, const std::string culoare, const std::string marime, const std::vector<std::string> materiale, bool gluga, const std::string inchidere) : haina(pret, producator, culoare, marime, materiale), gluga(gluga), inchidere(inchidere) {}
+bluza::bluza(float pret, const std::string &producator, const std::string &culoare, const std::string &marime, const std::vector<std::string> &materiale, bool gluga, const std::string &inchidere) : haina(pret, producator, culoare, marime, materiale), gluga(gluga), inchidere(inchidere) {}
 
 bluza::bluza(const bluza &b) : haina(b), gluga(b.gluga), inchidere(b.inchidere) {}
 

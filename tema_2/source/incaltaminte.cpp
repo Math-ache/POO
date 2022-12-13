@@ -5,7 +5,7 @@ incaltaminte::incaltaminte() : haina(), grosimeTalpa(0), model("")
 {
 }
 
-incaltaminte::incaltaminte(float pret, const std::string producator, const std::string culoare, const std::string marime, const std::vector<std::string> materiale, float grosimeTalpa, const std::string model) : haina(pret, producator, culoare, marime, materiale), grosimeTalpa(grosimeTalpa), model(model)
+incaltaminte::incaltaminte(float pret, const std::string &producator, const std::string &culoare, const std::string &marime, const std::vector<std::string> &materiale, float grosimeTalpa, const std::string &model) : haina(pret, producator, culoare, marime, materiale), grosimeTalpa(grosimeTalpa), model(model)
 {
 }
 

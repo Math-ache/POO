@@ -10,7 +10,7 @@ class incaltaminte : public haina
 
 public:
     incaltaminte();
-    incaltaminte(float pret, const std::string producator, const std::string culoare, const std::string marime, const std::vector<std::string> materiale, float grosimeTalpa, const std::string model);
+    incaltaminte(float pret, const std::string &producator, const std::string &culoare, const std::string &marime, const std::vector<std::string> &materiale, float grosimeTalpa, const std::string &model);
     incaltaminte(const incaltaminte &i);
     ~incaltaminte();
 

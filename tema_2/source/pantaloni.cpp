@@ -3,7 +3,7 @@
 
 pantaloni::pantaloni() : haina(), curea(false), lungime("") {}
 
-pantaloni::pantaloni(float pret, const std::string producator, const std::string culoare, const std::string marime, const std::vector<std::string> materiale, bool curea, const std::string lungime) : haina(pret, producator, culoare, marime, materiale), curea(curea), lungime(lungime) {}
+pantaloni::pantaloni(float pret, const std::string &producator, const std::string &culoare, const std::string &marime, const std::vector<std::string> &materiale, bool curea, const std::string &lungime) : haina(pret, producator, culoare, marime, materiale), curea(curea), lungime(lungime) {}
 
 pantaloni::pantaloni(const pantaloni &p) : haina(p), curea(p.curea), lungime(p.lungime) {}
 
