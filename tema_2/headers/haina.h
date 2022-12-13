@@ -18,7 +18,7 @@ public:
     haina();
     haina(float pret, std::string producator, std::string culoare, std::string marime, std::vector<std::string> materiale);
     haina(const haina &h);
-    ~haina();
+    virtual ~haina();
 
     float getPret() const;
     std::string getProducator() const;
