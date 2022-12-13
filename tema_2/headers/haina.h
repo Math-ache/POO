@@ -27,10 +27,10 @@ public:
     std::vector<std::string> getMateriale() const;
 
     void setPret(float _pret);
-    void setProducator(std::string _producator);
-    void setCuloare(std::string _culoare);
-    void setMarime(std::string _marime);
-    void setMateriale(std::vector<std::string> _materiale);
+    void setProducator(const std::string &_producator);
+    void setCuloare(const std::string &_culoare);
+    void setMarime(const std::string &_marime);
+    void setMateriale(const std::vector<std::string> &_materiale);
 
     // rescriere constructor copiere
     haina &operator=(const haina &h);

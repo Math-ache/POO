@@ -24,7 +24,7 @@ public:
     friend std::ostream &operator<<(std::ostream &os, const incaltaminte &i);
     friend std::istream &operator>>(std::istream &is, incaltaminte &i);
 
-    void descriere();
+    void descriere() override;
 };
 
 #endif // INCALTAMINTE_H

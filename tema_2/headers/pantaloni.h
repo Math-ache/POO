@@ -24,7 +24,7 @@ public:
     friend std::ostream &operator<<(std::ostream &os, const pantaloni &p);
     friend std::istream &operator>>(std::istream &is, pantaloni &p);
 
-    void descriere();
+    void descriere() override;
 };
 
 #endif // PANTALONI_H

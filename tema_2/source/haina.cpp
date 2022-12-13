@@ -39,22 +39,22 @@ void haina::setPret(float _pret)
     this->pret = _pret;
 }
 
-void haina::setProducator(std::string _producator)
+void haina::setProducator(const std::string &_producator)
 {
     this->producator = _producator;
 }
 
-void haina::setCuloare(std::string _culoare)
+void haina::setCuloare(const std::string &_culoare)
 {
     this->culoare = _culoare;
 }
 
-void haina::setMarime(std::string _marime)
+void haina::setMarime(const std::string &_marime)
 {
     this->marime = _marime;
 }
 
-void haina::setMateriale(std::vector<std::string> _materiale)
+void haina::setMateriale(const std::vector<std::string> &_materiale)
 {
     this->materiale = _materiale;
 }

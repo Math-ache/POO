@@ -24,7 +24,7 @@ public:
     friend std::ostream &operator<<(std::ostream &os, const bluza &b);
     friend std::istream &operator>>(std::istream &is, bluza &b);
 
-    void descriere();
+    void descriere() override;
 };
 
 #endif // BLUZA_H
