@@ -27,14 +27,14 @@ std::string incaltaminte::getModel() const
     return model;
 }
 
-void incaltaminte::setGrosimeTalpa(float grosimeTalpa)
+void incaltaminte::setGrosimeTalpa(float _grosimeTalpa)
 {
-    this->grosimeTalpa = grosimeTalpa;
+    this->grosimeTalpa = _grosimeTalpa;
 }
 
-void incaltaminte::setModel(std::string model)
+void incaltaminte::setModel(std::string _model)
 {
-    this->model = model;
+    this->model = _model;
 }
 
 incaltaminte &incaltaminte::operator=(const incaltaminte &i)

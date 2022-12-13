@@ -3,7 +3,7 @@
 
 bluza::bluza() : haina(), gluga(false), inchidere("") {}
 
-bluza::bluza(float pret, std::string producator, std::string culoare, std::string marime, std::vector<std::string> materiale, bool gluga, std::string inchidere) : haina(pret, producator, culoare, marime, materiale), gluga(gluga), inchidere(inchidere) {}
+bluza::bluza(float pret, const std::string producator, const std::string culoare, const std::string marime, const std::vector<std::string> materiale, bool gluga, const std::string inchidere) : haina(pret, producator, culoare, marime, materiale), gluga(gluga), inchidere(inchidere) {}
 
 bluza::bluza(const bluza &b) : haina(b), gluga(b.gluga), inchidere(b.inchidere) {}
 
@@ -19,14 +19,14 @@ std::string bluza::getInchidere() const
     return inchidere;
 }
 
-void bluza::setGluga(bool gluga)
+void bluza::setGluga(bool _gluga)
 {
-    this->gluga = gluga;
+    this->gluga = _gluga;
 }
 
-void bluza::setInchidere(std::string inchidere)
+void bluza::setInchidere(std::string _inchidere)
 {
-    this->inchidere = inchidere;
+    this->inchidere = _inchidere;
 }
 
 bluza &bluza::operator=(const bluza &b)
@@ -58,7 +58,7 @@ std::istream &operator>>(std::istream &is, bluza &b)
         std::cout << "Inchidere: ";
         is >> b.inchidere;
     }
-    catch(const inputInvalid &e)
+    catch (const inputInvalid &e)
     {
         std::cout << e.what() << "\n";
         throw inputInvalid();

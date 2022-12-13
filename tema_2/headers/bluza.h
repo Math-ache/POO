@@ -17,8 +17,8 @@ public:
     bool getGluga() const;
     std::string getInchidere() const;
 
-    void setGluga(bool gluga);
-    void setInchidere(std::string inchidere);
+    void setGluga(bool _gluga);
+    void setInchidere(std::string _inchidere);
 
     bluza &operator=(const bluza &b);
     friend std::ostream &operator<<(std::ostream &os, const bluza &b);

@@ -26,11 +26,11 @@ public:
     std::string getMarime() const;
     std::vector<std::string> getMateriale() const;
 
-    void setPret(float pret);
-    void setProducator(std::string producator);
-    void setCuloare(std::string culoare);
-    void setMarime(std::string marime);
-    void setMateriale(std::vector<std::string> materiale);
+    void setPret(float _pret);
+    void setProducator(std::string _producator);
+    void setCuloare(std::string _culoare);
+    void setMarime(std::string _marime);
+    void setMateriale(std::vector<std::string> _materiale);
 
     // rescriere constructor copiere
     haina &operator=(const haina &h);

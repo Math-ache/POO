@@ -34,29 +34,29 @@ std::vector<std::string> haina::getMateriale() const
     return materiale;
 }
 
-void haina::setPret(float pret)
+void haina::setPret(float _pret)
 {
-    this->pret = pret;
+    this->pret = _pret;
 }
 
-void haina::setProducator(std::string producator)
+void haina::setProducator(std::string _producator)
 {
-    this->producator = producator;
+    this->producator = _producator;
 }
 
-void haina::setCuloare(std::string culoare)
+void haina::setCuloare(std::string _culoare)
 {
-    this->culoare = culoare;
+    this->culoare = _culoare;
 }
 
-void haina::setMarime(std::string marime)
+void haina::setMarime(std::string _marime)
 {
-    this->marime = marime;
+    this->marime = _marime;
 }
 
-void haina::setMateriale(std::vector<std::string> materiale)
+void haina::setMateriale(std::vector<std::string> _materiale)
 {
-    this->materiale = materiale;
+    this->materiale = _materiale;
 }
 
 haina &haina::operator=(const haina &h)

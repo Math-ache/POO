@@ -17,8 +17,8 @@ public:
     float getGrosimeTalpa() const;
     std::string getModel() const;
 
-    void setGrosimeTalpa(float grosimeTalpa);
-    void setModel(std::string model);
+    void setGrosimeTalpa(float _grosimeTalpa);
+    void setModel(std::string _model);
 
     incaltaminte &operator=(const incaltaminte &i);
     friend std::ostream &operator<<(std::ostream &os, const incaltaminte &i);

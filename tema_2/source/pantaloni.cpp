@@ -19,14 +19,14 @@ std::string pantaloni::getLungime() const
     return lungime;
 }
 
-void pantaloni::setCurea(bool curea)
+void pantaloni::setCurea(bool _curea)
 {
-    this->curea = curea;
+    this->curea = _curea;
 }
 
-void pantaloni::setLungime(std::string lungime)
+void pantaloni::setLungime(std::string _lungime)
 {
-    this->lungime = lungime;
+    this->lungime = _lungime;
 }
 
 pantaloni &pantaloni::operator=(const pantaloni &p)

@@ -17,8 +17,8 @@ public:
     bool getCurea() const;
     std::string getLungime() const;
 
-    void setCurea(bool curea);
-    void setLungime(std::string lungime);
+    void setCurea(bool _curea);
+    void setLungime(std::string _lungime);
 
     pantaloni &operator=(const pantaloni &p);
     friend std::ostream &operator<<(std::ostream &os, const pantaloni &p);
