@@ -3,7 +3,7 @@
 
 haina::haina() : pret(0), producator(""), culoare(""), marime(""), materiale(std::vector<std::string>()) {}
 
-haina::haina(float pret, std::string producator, std::string culoare, std::string marime, std::vector<std::string> materiale) : pret(pret), producator(producator), culoare(culoare), marime(marime), materiale(materiale) {}
+haina::haina(float pret, const std::string producator, const std::string culoare, const std::string marime, const std::vector<std::string> materiale) : pret(pret), producator(producator), culoare(culoare), marime(marime), materiale(materiale) {}
 
 haina::haina(const haina &h) : pret(h.pret), producator(h.producator), culoare(h.culoare), marime(h.marime), materiale(h.materiale) {}
 

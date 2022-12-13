@@ -10,7 +10,7 @@ class pantaloni : public haina
 
 public:
     pantaloni();
-    pantaloni(float pret, std::string producator, std::string culoare, std::string marime, std::vector<std::string> materiale, bool curea, std::string lungime);
+    pantaloni(float pret, const std::string producator, const std::string culoare, const std::string marime, const std::vector<std::string> materiale, bool curea, const std::string lungime);
     pantaloni(const pantaloni &p);
     ~pantaloni();
 

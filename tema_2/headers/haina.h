@@ -16,7 +16,7 @@ private:
 
 public:
     haina();
-    haina(float pret, std::string producator, std::string culoare, std::string marime, std::vector<std::string> materiale);
+    haina(float pret, const std::string producator, const std::string culoare, const std::string marime, const std::vector<std::string> materiale);
     haina(const haina &h);
     virtual ~haina();
 
